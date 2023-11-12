@@ -1,6 +1,9 @@
 append-unnamed.nvim
 ===================
 
+### dependency
+relies on [repeatable.nvim](https://github.com/jake-stewart/repeatable.nvim)
+
 ### usage
 use `<leader>d` to delete and append to unnamed register.
 use `<leader>y` to yank and append to unnamed register.
