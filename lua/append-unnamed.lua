@@ -6,7 +6,7 @@ local function appendUnnamed(key)
         local z = { vim.fn.getreg("z"), vim.fn.getregtype("z") }
         vim.fn.setreg("z", vim.fn.getreg(reg), vim.fn.getregtype(reg))
         if o.motion == "char" then
-            vim.fn.feedkeys("`[" .. '"Z' .. key .. "`]", "tx")
+            vim.fn.feedkeys("`[" .. '"Z' .. key .. "v`]", "tx")
         else
             vim.fn.feedkeys("'[" .. '"Z' .. key .. "']", "tx")
         end
