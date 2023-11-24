@@ -1,5 +1,6 @@
 append-unnamed.nvim
 ===================
+Works like `"A` which appends to register `a`, but for the unnamed register (default register).
 
 ### dependency
 relies on [repeatable.nvim](https://github.com/jake-stewart/repeatable.nvim)
